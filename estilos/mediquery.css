@@ -1,0 +1,63 @@
+
+/* media pra tablet*/
+@media screen and (min-width:768px) and (max-width:992px){
+    #login{
+        width: 90vw;
+        height: 300px;
+    }
+    #login >.imagem{
+        float: left;
+        width: 40%;
+        height: 100vh;
+        background-position: top right;
+    }
+    #login>.formulario{
+        float: right;
+        width: 60%;
+    }
+    .Campo input {
+        width: calc(100% - 62px);  
+    }
+    
+}
+/*Media pra desktop*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    #login{
+        width: 950px;
+        height: 400px;
+
+    }
+    #login >.imagem{
+        float: right;
+        width: 50%;
+        height: 100vh;
+        background-position: center center;
+    }
+    #login>.formulario{
+        float: left;
+        width: 50%;
+    } 
+    .Campo input {
+        width: calc(100% - 62px);  
+    }   
+}
+/*Media pra desktop e telas maiores*/
+@media screen and (min-width:1200px){
+    #login{
+        width: 1160px;
+    }
+    #login >.imagem{
+        float: right;
+        width: 50%;
+        height: 100vh;
+        background-position: center center;
+    }
+    #login>.formulario{
+        float: left;
+        width: 50%;
+    }
+    .Campo input {
+        width: calc(100% - 62px);  
+    }
+    
+}
